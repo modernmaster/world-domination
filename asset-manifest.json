@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "https://modernmaster.github.io/world-domination/static/css/main.073c9b0a.css",
-    "main.js": "https://modernmaster.github.io/world-domination/static/js/main.86c2db7a.js",
-    "static/js/787.81cdf2c6.chunk.js": "https://modernmaster.github.io/world-domination/static/js/787.81cdf2c6.chunk.js",
-    "static/media/logo.svg": "https://modernmaster.github.io/world-domination/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "https://modernmaster.github.io/world-domination/index.html",
-    "main.073c9b0a.css.map": "https://modernmaster.github.io/world-domination/static/css/main.073c9b0a.css.map",
-    "main.86c2db7a.js.map": "https://modernmaster.github.io/world-domination/static/js/main.86c2db7a.js.map",
-    "787.81cdf2c6.chunk.js.map": "https://modernmaster.github.io/world-domination/static/js/787.81cdf2c6.chunk.js.map"
+    "main.css": "/world-domination/static/css/main.073c9b0a.css",
+    "main.js": "/world-domination/static/js/main.3f9a19af.js",
+    "static/js/787.81cdf2c6.chunk.js": "/world-domination/static/js/787.81cdf2c6.chunk.js",
+    "static/media/logo.svg": "/world-domination/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/world-domination/index.html",
+    "main.073c9b0a.css.map": "/world-domination/static/css/main.073c9b0a.css.map",
+    "main.3f9a19af.js.map": "/world-domination/static/js/main.3f9a19af.js.map",
+    "787.81cdf2c6.chunk.js.map": "/world-domination/static/js/787.81cdf2c6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.86c2db7a.js"
+    "static/js/main.3f9a19af.js"
   ]
 }
