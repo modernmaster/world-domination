@@ -1,24 +1,16 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, {useState} from 'react';
 import './App.css';
+import MapChart from "./MapChart";
+import { Tooltip as ReactTooltip } from "react-tooltip";
 
 function App() {
-  return (
+    const [content, setContent] = useState("");
+    return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <article>
+          <MapChart setTooltipContent={setContent} />
+          <ReactTooltip id="my-tooltip" variant="info" place="bottom"><p>Country: {content}</p><p>Click here for battle!  Make clickable in react-tooltip</p></ReactTooltip>
+      </article>
     </div>
   );
 }
