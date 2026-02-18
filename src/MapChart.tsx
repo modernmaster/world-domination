@@ -10,7 +10,7 @@ import {
 //     "https://raw.githubusercontent.com/deldersveld/topojson/master/world-countries.json";
 
 interface MapChartProps {
-    setTooltipContent(arg0: string): void;
+    setTooltipContent(arg0: {country: string}): void;
 }
 
 
@@ -27,12 +27,10 @@ const MapChart = (mapChartProps: MapChartProps) => {
                                     key={geo.rsmKey}
                                     geography={geo}
                                     onMouseEnter={() => {
-                                        console.log(`${geo.properties.name}`)
-                                        mapChartProps.setTooltipContent(`${geo.properties.name}`);
+                                        mapChartProps.setTooltipContent({country:`${geo.properties.name}`});
                                     }}
                                     onMouseLeave={() => {
-                                        console.log(`${geo.properties.name}`)
-                                        mapChartProps.setTooltipContent("");
+                                        // mapChartProps.setTooltipContent("");
                                     }}
                                     style={{
                                         default: {
