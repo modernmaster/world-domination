@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/world-domination/static/css/main.fdc0e706.css",
+    "main.js": "/world-domination/static/js/main.0cad73c8.js",
+    "static/js/787.81cdf2c6.chunk.js": "/world-domination/static/js/787.81cdf2c6.chunk.js",
+    "static/media/world.svg": "/world-domination/static/media/world.a3f1a32acdffebd4aa97bf2d3cff5ff3.svg",
+    "index.html": "/world-domination/index.html",
+    "main.fdc0e706.css.map": "/world-domination/static/css/main.fdc0e706.css.map",
+    "main.0cad73c8.js.map": "/world-domination/static/js/main.0cad73c8.js.map",
+    "787.81cdf2c6.chunk.js.map": "/world-domination/static/js/787.81cdf2c6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fdc0e706.css",
+    "static/js/main.0cad73c8.js"
+  ]
+}
